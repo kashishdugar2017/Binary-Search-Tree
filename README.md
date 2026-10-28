@@ -8,6 +8,12 @@ Each node has a value, a left and a right. The rule: smaller numbers go left, bi
 ## Insert
 Start at the root. If the new number is smaller, go left; if bigger, go right. Keep going down until you find an empty spot (None), then put the new node there.
 
+## Preorder
+Preorder visits the node first, then the left then the right
+
+## Postorder
+Postorder visits left, then right, than left
+
 ## Inorder
 Inorder visits left, then the node, then right. Everything on a node's left is smaller, so it prints first. That's why the numbers come out sorted.
 
