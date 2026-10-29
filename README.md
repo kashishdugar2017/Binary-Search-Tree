@@ -12,7 +12,7 @@ Start at the root. If the new number is smaller, go left; if bigger, go right. K
 Preorder visits the node first, then the left then the right
 
 ## Postorder
-Postorder visits left, then right, than left
+Postorder visits left, then right, then the node
 
 ## Inorder
 Inorder visits left, then the node, then right. Everything on a node's left is smaller, so it prints first. That's why the numbers come out sorted.
